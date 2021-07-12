@@ -14,7 +14,9 @@ struct ContentView: View {
 }
 
 struct ContentView_Previews: PreviewProvider {
+    //预览
     static var previews: some View {
         ContentView()
+            .environmentObject(ModelData())
     }
 }
